@@ -1,0 +1,29 @@
+Beerdora
+========
+
+Beer recommendation engine.
+
+Sample usage:
+
+    python get_beer_data.py    
+    python make_training_data.py
+    mono /path/to/ipy.exe recommend.py
+
+
+Module descriptions:
+
+config.py:
+    Defines cross-module objects (e.g., constants).
+
+get_beer_data.py:
+    Reads recommendation data from a directory containing html documents with
+    a consistent structure. Formats data and writes to database.
+
+make_training_data.py:
+    Reads data from database and outputs .csv files of training and test data.
+
+recommend.py:
+    CLI app to predict user beer ratings.
+
+    
+Notes: This program requires mono, ipython, and mymedialite.
