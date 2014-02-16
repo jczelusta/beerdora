@@ -1,6 +1,6 @@
 # Path to sqlite db
 
-_DB = "/Users/admin/Documents/Beerdora/Data/ba.db"
+_DB = "ba.db"
 
 # Name of table to hold ratings
 
@@ -16,4 +16,7 @@ _TEST = "/Users/admin/Documents/Beerdora/Data/test.tsv"
 
 # Fraction of data to use for training
 
-_TRAIN_PERCENT = 0.75
+_TRAIN_PERCENT = 0.7
+
+# Maximum acceptable root mean squared error
+_MAX_RMSE = 0.8
